@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #c5f4e7;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header {
+    background-color: #00cfcf;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 18px;
+}
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.dia {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dia h2 {
+    margin-top: 0;
+    color: #008f8f;
+}
+
+.escala {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f2f2f2;
+
+    padding: 14px;
+    margin-top: 10px;
+
+    border-radius: 8px;
+}
+
+.escala strong {
+    color: #008f8f;
+    font-size: 18px;
+}
+
+.ala {
+    display: flex;
+    gap: 20px;
+}
+
+.ala > .dia {
+    flex: 1 1 280px;
+}
+
+.controle-semana {
+    width: 90%;
+    max-width: 700px;
+
+    margin: 25px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.controle-semana button {
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #00cfcf;
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+.controle-semana button:hover {
+    background-color: #008f8f;
+}
+
+.controle-semana div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+#semana-atual {
+    color: #008f8f;
+}
+
+#data-semana {
+    color: #666;
+    font-size: 14px;
+}
